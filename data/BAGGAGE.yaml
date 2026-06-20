@@ -1,0 +1,74 @@
+profile:
+  categories:
+    I:
+      "1": "Aircraft Cabin"
+      "2": "Region"
+      "3": "Student or Not"
+      "4": "Luggage Weight"
+      "5": "Airfare"
+    O:
+      "1": "whether luggage fee is more than zero"
+  choices:
+    I:
+      "1":
+        "a": "0(First Class)"
+        "b": "1(Business Class)"
+        "c": "2(Economy Class)"
+        "d": "3(Infant Ticket)"
+      "2":
+        "a": "0(Domestic Region)"
+        "b": "1(International Region)"
+      "3":
+        "a": "false(Not a student)"
+        "b": "true(Student)"
+      "4":
+        "a": "L <= benchmark"
+        "b": "L > benchmark"
+      "5":
+        "a": "E = 0"
+        "b": "E > 0"
+    O:
+      "1":
+        "a": "luggage fee = 0"
+        "b": "luggage fee > 0"
+frames:
+  - "I-1-a,I-2-a,I-3-a,I-4-a,I-5-a,O-1-a"
+  - "I-1-a,I-2-a,I-3-a,I-4-a,I-5-b,O-1-a"
+  - "I-1-a,I-2-a,I-3-a,I-4-b,I-5-a,O-1-a"
+  - "I-1-a,I-2-a,I-3-a,I-4-b,I-5-b,O-1-b"
+  - "I-1-a,I-2-b,I-3-a,I-4-a,I-5-a,O-1-a"
+  - "I-1-a,I-2-b,I-3-a,I-4-a,I-5-b,O-1-a"
+  - "I-1-a,I-2-b,I-3-a,I-4-b,I-5-a,O-1-a"
+  - "I-1-a,I-2-b,I-3-a,I-4-b,I-5-b,O-1-b"
+  - "I-1-b,I-2-a,I-3-a,I-4-a,I-5-a,O-1-a"
+  - "I-1-b,I-2-a,I-3-a,I-4-a,I-5-b,O-1-a"
+  - "I-1-b,I-2-a,I-3-a,I-4-b,I-5-a,O-1-a"
+  - "I-1-b,I-2-a,I-3-a,I-4-b,I-5-b,O-1-b"
+  - "I-1-b,I-2-b,I-3-a,I-4-a,I-5-a,O-1-a"
+  - "I-1-b,I-2-b,I-3-a,I-4-a,I-5-b,O-1-a"
+  - "I-1-b,I-2-b,I-3-a,I-4-b,I-5-a,O-1-a"
+  - "I-1-b,I-2-b,I-3-a,I-4-b,I-5-b,O-1-b"
+  - "I-1-c,I-2-a,I-3-a,I-4-a,I-5-a,O-1-a"
+  - "I-1-c,I-2-a,I-3-a,I-4-a,I-5-b,O-1-a"
+  - "I-1-c,I-2-a,I-3-a,I-4-b,I-5-a,O-1-a"
+  - "I-1-c,I-2-a,I-3-a,I-4-b,I-5-b,O-1-b"
+  - "I-1-c,I-2-b,I-3-a,I-4-a,I-5-a,O-1-a"
+  - "I-1-c,I-2-b,I-3-a,I-4-a,I-5-b,O-1-a"
+  - "I-1-c,I-2-b,I-3-a,I-4-b,I-5-a,O-1-a"
+  - "I-1-c,I-2-b,I-3-a,I-4-b,I-5-b,O-1-b"
+  - "I-1-c,I-2-a,I-3-b,I-4-a,I-5-a,O-1-a"
+  - "I-1-c,I-2-a,I-3-b,I-4-a,I-5-b,O-1-a"
+  - "I-1-c,I-2-a,I-3-b,I-4-b,I-5-a,O-1-a"
+  - "I-1-c,I-2-a,I-3-b,I-4-b,I-5-b,O-1-b"
+  - "I-1-c,I-2-b,I-3-b,I-4-a,I-5-a,O-1-a"
+  - "I-1-c,I-2-b,I-3-b,I-4-a,I-5-b,O-1-a"
+  - "I-1-c,I-2-b,I-3-b,I-4-b,I-5-a,O-1-a"
+  - "I-1-c,I-2-b,I-3-b,I-4-b,I-5-b,O-1-b"
+  - "I-1-d,I-2-a,I-3-a,I-4-a,I-5-a,O-1-a"
+  - "I-1-d,I-2-a,I-3-a,I-4-a,I-5-b,O-1-a"
+  - "I-1-d,I-2-a,I-3-a,I-4-b,I-5-a,O-1-a"
+  - "I-1-d,I-2-a,I-3-a,I-4-b,I-5-b,O-1-b"
+  - "I-1-d,I-2-b,I-3-a,I-4-a,I-5-a,O-1-a"
+  - "I-1-d,I-2-b,I-3-a,I-4-a,I-5-b,O-1-a"
+  - "I-1-d,I-2-b,I-3-a,I-4-b,I-5-a,O-1-a"
+  - "I-1-d,I-2-b,I-3-a,I-4-b,I-5-b,O-1-b"

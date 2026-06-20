@@ -1,0 +1,72 @@
+profile:
+  categories:
+    I:
+      "1": "Plan Type"
+      "2": "Plan Fee"
+      "3": "Talk Time"
+      "4": "Flow"
+    O:
+      "1": "Over Charge or Not"
+      "2": "Plan Fee"
+  choices:
+    I:
+      "1":
+        "a": "A"
+        "b": "B"
+      "2":
+        "a": "46"
+        "b": "96"
+        "c": "126"
+        "d": "186"
+        "e": "286"
+        "f": "886"
+      "3":
+        "a": "t <= talkTimeBench"
+        "b": "t > talkTimeBench"
+      "4":
+        "a": "f <= flowBench"
+        "b": "f > flowBench"
+    O:
+      "1":
+        "a": "B = F"
+        "b": "B > F"
+      "2":
+        "a": "F = 46"
+        "b": "F = 96"
+        "c": "F = 126"
+        "d": "F = 186"
+        "e": "F = 286"
+        "f": "F = 886"
+frames:
+  - "I-1-a,I-2-a,I-3-a,I-4-a,O-1-a,O-2-a"
+  - "I-1-a,I-2-a,I-3-a,I-4-b,O-1-b,O-2-a"
+  - "I-1-a,I-2-a,I-3-b,I-4-a,O-1-b,O-2-a"
+  - "I-1-a,I-2-a,I-3-b,I-4-b,O-1-b,O-2-a"
+  - "I-1-a,I-2-b,I-3-a,I-4-a,O-1-a,O-2-b"
+  - "I-1-a,I-2-b,I-3-a,I-4-b,O-1-b,O-2-b"
+  - "I-1-a,I-2-b,I-3-b,I-4-a,O-1-b,O-2-b"
+  - "I-1-a,I-2-b,I-3-b,I-4-b,O-1-b,O-2-b"
+  - "I-1-a,I-2-e,I-3-a,I-4-a,O-1-a,O-2-e"
+  - "I-1-a,I-2-e,I-3-a,I-4-b,O-1-b,O-2-e"
+  - "I-1-a,I-2-e,I-3-b,I-4-a,O-1-b,O-2-e"
+  - "I-1-a,I-2-e,I-3-b,I-4-b,O-1-b,O-2-e"
+  - "I-1-a,I-2-f,I-3-a,I-4-a,O-1-a,O-2-f"
+  - "I-1-a,I-2-f,I-3-a,I-4-b,O-1-b,O-2-f"
+  - "I-1-a,I-2-f,I-3-b,I-4-a,O-1-b,O-2-f"
+  - "I-1-a,I-2-f,I-3-b,I-4-b,O-1-b,O-2-f"
+  - "I-1-b,I-2-a,I-3-a,I-4-a,O-1-a,O-2-a"
+  - "I-1-b,I-2-a,I-3-a,I-4-b,O-1-b,O-2-a"
+  - "I-1-b,I-2-a,I-3-b,I-4-a,O-1-b,O-2-a"
+  - "I-1-b,I-2-a,I-3-b,I-4-b,O-1-b,O-2-a"
+  - "I-1-b,I-2-b,I-3-a,I-4-a,O-1-a,O-2-b"
+  - "I-1-b,I-2-b,I-3-a,I-4-b,O-1-b,O-2-b"
+  - "I-1-b,I-2-b,I-3-b,I-4-a,O-1-b,O-2-b"
+  - "I-1-b,I-2-b,I-3-b,I-4-b,O-1-b,O-2-b"
+  - "I-1-b,I-2-c,I-3-a,I-4-a,O-1-a,O-2-c"
+  - "I-1-b,I-2-c,I-3-a,I-4-b,O-1-b,O-2-c"
+  - "I-1-b,I-2-c,I-3-b,I-4-a,O-1-b,O-2-c"
+  - "I-1-b,I-2-c,I-3-b,I-4-b,O-1-b,O-2-c"
+  - "I-1-b,I-2-d,I-3-a,I-4-a,O-1-a,O-2-d"
+  - "I-1-b,I-2-d,I-3-a,I-4-b,O-1-b,O-2-d"
+  - "I-1-b,I-2-d,I-3-b,I-4-a,O-1-b,O-2-d"
+  - "I-1-b,I-2-d,I-3-b,I-4-b,O-1-b,O-2-d"
